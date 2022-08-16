@@ -8,6 +8,7 @@ function App() {
   <h1>Hello World</h1>
   {Jsx1()}
   {tick()}
+  {Add()}
   <Name user={user} />
 </div>
 
@@ -52,6 +53,14 @@ function tick(){
   )
   return(
     element
+  )
+}
+
+function Add(){
+  return(
+    <div>
+      Adding still in process ...
+    </div>
   )
 }
 
